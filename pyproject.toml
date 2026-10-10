@@ -1,0 +1,17 @@
+[project]
+name = "m3-stock-price-models"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Boon Wee", email = "bwong_sg@yahoo.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+m3-stock-price-models = "m3_stock_price_models:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
